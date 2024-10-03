@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: inventario
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/inventario_prueba
+    username: postgres
+    password: 1234
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    show-sql: false
+
+server:
+  port: 8080
+  servlet:
+    context-path: /service/v1
